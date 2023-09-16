@@ -13,7 +13,7 @@ const HomeScreen = () => {
   return (
     <View>
 
-      <View style={{ margin: 25 }}>
+      <View style={{ margin: 20 }}>
         <Text style={styles.title} >AD</Text>
         <TextInput
           style={{ padding: 10, borderWidth: 1, borderRadius: 10 }}
@@ -27,7 +27,7 @@ const HomeScreen = () => {
 
       </View>
 
-      <View style={{ margin: 25 }}>
+      <View style={{ margin: 20 }}>
         <Text style={styles.title} >SOYAD</Text>
         <TextInput
           style={{ padding: 10, borderWidth: 1, borderRadius: 10 }}
@@ -40,7 +40,7 @@ const HomeScreen = () => {
         />
       </View>
 
-      <View style={{ margin: 25 }}>
+      <View style={{ margin: 20 }}>
         <Text style={styles.title} >E-MAİL</Text>
         <TextInput style={{ padding: 10, borderWidth: 1, borderRadius: 10 }}
           onChangeText={text =>
@@ -49,10 +49,12 @@ const HomeScreen = () => {
               payload: text,
             })
           }
+          keyboardType="email-address"
+          autoCapitalize="none"
         />
       </View>
 
-      <View style={{ margin: 25 }}>
+      <View style={{ margin: 20 }}>
         <Text style={styles.title} >TELEFON</Text>
         <TextInput style={{ padding: 10, borderWidth: 1, borderRadius: 10 }}
           onChangeText={text =>
@@ -61,6 +63,7 @@ const HomeScreen = () => {
               payload: text,
             })
           }
+          keyboardType="phone-pad"
         />
       </View>
 
@@ -83,5 +86,5 @@ const styles = StyleSheet.create({
     color: 'green',
     fontWeight: 'bold'
   }
-  
+
 })
