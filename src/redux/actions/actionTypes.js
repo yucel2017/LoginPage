@@ -1,0 +1,4 @@
+export const CHANGE_FULL_NAME = 'CHANGE_FULL_NAME';
+export const CHANGE_SUR_NAME = 'CHANGE_SUR_NAME';
+export const CHANGE_E_MAIL = 'CHANGE_E_MAIL';
+export const CHANGE_TEL = 'CHANGE_TEL';
