@@ -1,4 +1,4 @@
-
+Bu projenin başarılı bir şekilde geliştirilmesi, temelde işlevselliğinin oluşturulması, önemli paketlerin başarılı bir şekilde entegre edilmesi açısından önemliydi. Görsel anlamda bu yüzden üzerinde daha fazla emek harcanmadı. React Native in gücünü ve esnekliğini Redux ile birlikte kullanarak işlevsel bir mobil uygulama geliştirmeye başlangıç için uygun bir örnek oldu.
 
 
 
